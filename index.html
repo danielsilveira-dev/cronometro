@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Cronômetro - JavaScript</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <header class="hero__container">
+      <h1>
+        Projeto Cronômetro
+        <span>JavaScript</span>
+      </h1>
+    </header>
+    <main class="main__container">
+      <audio
+        id="sound"
+        class=""
+        src="./sound/sfx_s_item_get03_wappen.mp3"
+      ></audio>
+
+      <section class="section__container">
+        <h2 class="section__title">Minutos</h2>
+        <select id="minutos" name="minutos"></select>
+
+        <h2 class="section__title">Segundos</h2>
+        <select name="segundos" id="segundos"></select>
+        <br />
+        <br />
+
+        <button id="comecar" class="btn__start">Começar!</button>
+
+        <div id="display" class="box__display">
+          <h3></h3>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./js/main.js">
+    </script>
+  </body>
+</html>
